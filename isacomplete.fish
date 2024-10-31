@@ -301,7 +301,7 @@ complete -c $ISABELLE_CMD -n '__fish_isabelle_using_command build' --no-files -k
 complete -c $ISABELLE_CMD -n '__fish_isabelle_using_command build' -s B --no-files -rka '(__fish_complete_isabelle_session "-d" "-D")' -d 'include session and descendants'
 complete -c $ISABELLE_CMD -n '__fish_isabelle_using_command build' -s x --no-files -rka '(__fish_complete_isabelle_session "-d" "-D")' -d 'exclude session and descendants'
 
-## session group completions (not yet implemented)
+## session group completions
 complete -c $ISABELLE_CMD -n '__fish_isabelle_using_command build' -s X --no-files -ra '(__fish_complete_isabelle_session_group "-d" "-D")' -d 'exclude session group and descendants'
 complete -c $ISABELLE_CMD -n '__fish_isabelle_using_command build' -s g --no-files -ra '(__fish_complete_isabelle_session_group "-d" "-D")' -d 'select session group'
 
@@ -348,7 +348,7 @@ complete -c $ISABELLE_CMD -n '__fish_isabelle_using_command sessions' --no-files
 complete -c $ISABELLE_CMD -n '__fish_isabelle_using_command sessions' -s B --no-files -rka '(__fish_complete_isabelle_session "-d" "-D")' -d 'include session and descendants'
 complete -c $ISABELLE_CMD -n '__fish_isabelle_using_command sessions' -s x --no-files -rka '(__fish_complete_isabelle_session "-d" "-D")' -d 'exclude session and descendents'
 
-## session group completions (not yet implemented)
+## session group completions
 complete -c $ISABELLE_CMD -n '__fish_isabelle_using_command sessions' -s X --no-files -ra '(__fish_complete_isabelle_session_group "-d" "-D")' -d 'exclude session group and descendants'
 complete -c $ISABELLE_CMD -n '__fish_isabelle_using_command sessions' -s g --no-files -ra '(__fish_complete_isabelle_session_group "-d" "-D")' -d 'select session group'
 
